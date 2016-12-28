@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space1"
+    android:orientation="vertical"
+    android:scaleType="centerCrop"
+    tools:context="com.ford.zrouse.unfoundsound.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:editTextColor="@android:color/white"
+            android:hint="@string/username"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/white"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/password_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:editTextColor="@android:color/white"
+            android:hint="@string/password"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/login_text_view_text"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/FirstScreenButtonStyle"
+                android:text="@string/forgot_password" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+
+            <Button
+                android:id="@+id/login_home_button"
+                style="@style/FirstScreenButtonStyle"
+                android:text="@string/login_button_text" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+package com.ford.zrouse.unfoundsound;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+
+public class SignUp extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sign_up);
+
+        Button signUpLoginButton = (Button) findViewById(R.id.sign_up_login_button);
+
+        signUpLoginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent signUpLoginIntent = new Intent(SignUp.this, Login.class);
+
+                startActivity(signUpLoginIntent);
+
+            }
+        });
+
+    }
+}
