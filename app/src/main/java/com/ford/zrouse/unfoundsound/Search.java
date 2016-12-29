@@ -1,25 +1,24 @@
 package com.ford.zrouse.unfoundsound;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Home extends AppCompatActivity {
+public class Search extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
-
+        setContentView(R.layout.activity_search);
         Button homeButton = (Button) findViewById(R.id.home_button);
 
         homeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent homeIntent = new Intent(Home.this, Home.class);
+                Intent homeIntent = new Intent(Search.this, Home.class);
 
                 startActivity(homeIntent);
 
@@ -32,7 +31,7 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent searchIntent = new Intent(Home.this, Search.class);
+                Intent searchIntent = new Intent(Search.this, Search.class);
 
                 startActivity(searchIntent);
 
@@ -45,7 +44,7 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent playlistsIntent = new Intent(Home.this, Playlists.class);
+                Intent playlistsIntent = new Intent(Search.this, Playlists.class);
 
                 startActivity(playlistsIntent);
 
@@ -58,7 +57,7 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent trendingIntent = new Intent(Home.this, Trending.class);
+                Intent trendingIntent = new Intent(Search.this, Trending.class);
 
                 startActivity(trendingIntent);
 

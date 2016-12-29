@@ -13,4 +13,12 @@
     <string name="forgot_password">Forgot Password</string>
     <string name="login_text_view_text">This is the Login Activity.  The user would input their username and password and Login to the Home activity.  Optionally, I would investigate using a 3rd party account authentication API (such as Google or Facebook accounts).  Forgot Password activity may also reside here, although not included in this project structure.  Tap Login to proceed to the Home Activity. </string>
     <string name="sign_up_text_view_text">This is the Sign Up Activity.  The user would create an account and tap Sign Up and would then be taken to the Login Activity.  Proper sign up process should be used, such as email confirmation before logging in, or accounts handled by a 3rd party authentication API (such as Google or Facebook accounts).  </string>
+    <string name="search">Search</string>
+    <string name="playlists">Playlists</string>
+    <string name="trending">Trending</string>
+    <string name="nowplaying">Now Playing</string>
+    <string name="home_text_view_text">This is the Home Activity.</string>
+    <string name="search_text_view_text">This is the Search Activity.</string>
+    <string name="playlists_text_view_text">This is the Playlists Activity.</string>
+    <string name="trending_text_view_text">This is the Trending Activity.</string>
 </resources>

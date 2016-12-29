@@ -56,12 +56,8 @@
             android:textSize="30sp" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:text="@string/sign_up_text_view_text"
-            android:textColor="@android:color/white"
-            android:textSize="20sp" />
+            style="@style/TextViewTextStyle"
+            android:text="@string/sign_up_text_view_text" />
     </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"

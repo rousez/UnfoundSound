@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_home"
+    android:id="@+id/activity_search"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/space1"
     android:orientation="vertical"
     android:scaleType="centerCrop"
-    tools:context="com.ford.zrouse.unfoundsound.Home">
+    tools:context="com.ford.zrouse.unfoundsound.Search">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
 
             <Button
                 android:id="@+id/home_button"
-                style="@style/ActiveMenuButtonHighlighting"
+                style="@style/HomeScreenButtonStyle"
                 android:text="@string/home" />
 
             <ImageView
@@ -29,7 +29,7 @@
 
             <Button
                 android:id="@+id/search_button"
-                style="@style/HomeScreenButtonStyle"
+                style="@style/ActiveMenuButtonHighlighting"
                 android:text="@string/search" />
 
             <ImageView
@@ -58,7 +58,7 @@
 
             <TextView
                 style="@style/TextViewTextStyle"
-                android:text="@string/home_text_view_text"/>
+                android:text="@string/search_text_view_text"/>
 
         </LinearLayout>
 

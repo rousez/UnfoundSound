@@ -17,4 +17,32 @@
         <item name="android:layout_weight">1</item>
     </style>
 
+    <style name="HomeScreenButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TextViewTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="ActiveMenuButtonHighlighting" parent="@style/HomeScreenButtonStyle">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonDividerImageView">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
 </resources>
