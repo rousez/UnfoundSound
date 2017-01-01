@@ -17,8 +17,8 @@
     <string name="playlists">Playlists</string>
     <string name="trending">Trending</string>
     <string name="nowplaying">Now Playing</string>
-    <string name="home_text_view_text">This is the Home Activity.</string>
-    <string name="search_text_view_text">This is the Search Activity.</string>
-    <string name="playlists_text_view_text">This is the Playlists Activity.</string>
-    <string name="trending_text_view_text">This is the Trending Activity.</string>
+    <string name="home_text_view_text">This is the Home Activity.  This is the initial activity after successful login and is the main screen for playing music and viewing artists.  </string>
+    <string name="search_text_view_text">This is the Search Activity.  It may contain an EditText View for the user to search artists, songs or albums on UnfoundSound.  Selecting a song, artist, or album will allow the user to play music and transition to the Home activity.</string>
+    <string name="playlists_text_view_text">This is the Playlists Activity.  The playlist activity can contain custom user playlists controlled and saved by the user.  Selecting to songs will transition to the Home activity to play.</string>
+    <string name="trending_text_view_text">This is the Trending Activity.  This trending activity would contain popular artists, songs or albums that are currently popular based on number of listens, views or high ratings.  Selecting to songs will transition to the Home activity to play.</string>
 </resources>
